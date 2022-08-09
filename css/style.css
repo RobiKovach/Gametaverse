@@ -7,15 +7,29 @@ body{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 85vh;
 }
 .frame-left {
     width: 70%;
 }
 
 .frm-left{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
+}
+
+.frm-left-two{
+    height: 85vh;
+    width: 100%;
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.hidden {
+    display: none;
 }
 
 .frame-right {
@@ -23,6 +37,36 @@ body{
 }
 
 .frm-right{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
+}
+
+.frame-buttons {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-one {
+    color: #fff;
+    background-color: #0e0e0e;
+    text-decoration: none;
+    padding: 15px 45px;
+    transition: 0.3s;
+}
+.btn-one:hover {
+    color: #fff;
+    background-color: #303030;
+}
+.btn-two {
+    color: #fff;
+    background-color: #0e0e0e;
+    text-decoration: none;
+    padding: 15px 45px;
+    transition: 0.3s;
+}
+.btn-two:hover {
+    color: #fff;
+    background-color: #303030;
 }
