@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.frame-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.frame-left {
+    width: 70%;
+}
+
+.frm-left{
+    height: 100vh;
+    width: 100%;
+}
+
+.frame-right {
+    width: 30%;
+}
+
+.frm-right{
+    height: 100vh;
+    width: 100%;
+}
